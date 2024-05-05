@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+}
+.header .icon-1 i{
+    font-size: 30px;
+    opacity: 0.5;
+    margin: 30px;
+}
+.header ul{
+    margin: 30px;
+    display: inline-flex;
+}
+.header ul li{
+    font-size: 25px;
+    margin-left: 12px;
+    list-style: none;
+}
+.header ul .underline li{
+    text-decoration: underline;
+    text-decoration-color: rgb(175, 173, 173);
+}
+.header ul .gray li{
+    color: rgb(175, 173, 173);
+}
+#main{
+   margin-left: 20%;
+   margin-top: 20%;
+}
+#main h1{
+    font-size: 70px;
+}
+#main p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#main button{
+    font-size: 20px;
+    color: black;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px;
+    width: 80px;
+    font-weight: bold;
+}
+#main button:hover{
+    color: white;
+    background-color: black;
+}
+.img{
+    height: 400px;
+    width: 500px;
+    top: -26.1em;
+    position: relative;
+    left: 40em;
+}
+.two{
+   display: flex;
+}
+.img-text{
+    margin-top: 200px;
+    margin-left: 20px;       
+     color: white;
+        font-size: 2em;
+        font-weight: bold;
+        top: -30px;
+        left: 650px;
+        position: absolute;
+}
